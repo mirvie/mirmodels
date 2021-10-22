@@ -1,0 +1,86 @@
+Package: mirmisc
+Title: Non-Modeling Helper Functions For Mirvie R Coders
+Version: 0.1.2
+Authors@R: 
+    c(person(given = "Rory",
+             family = "Nolan",
+             role = c("aut", "cre"),
+             email = "rorynolan@mirvie.com"),
+      person(given = "Arkady",
+             family = "Khodursky",
+             role = "aut",
+             email = "arkady@mirvie.com"),
+      person(given = "Farooq",
+             family = "Siddiqui",
+             role = "aut",
+             email = "farooq@mirvie.com"),
+      person(given = "Elaine",
+             family = "Gee",
+             role = "aut",
+             email = "elaine@mirvie.com"),
+      person(given = "Joan",
+             family = "Camunas Soler",
+             role = "aut",
+             email = "joan@mirvie.com"),
+      person(given = "Morten",
+             family = "Rasmussen",
+             role = "aut",
+             email = "morten@mirvie.com"))
+Maintainer: Rory Nolan <rory@mirvie.com>
+Description: We have random bits of code that are quite useful.
+    This is a home for those scripts.
+License: MIT + file LICENSE
+URL: https://gitlab.com/Mirvie/mirmisc
+BugReports: https://gitlab.com/Mirvie/mirmisc/-/issues
+Imports: 
+    arrow (>= 3.0),
+    checkmate,
+    DescTools,
+    detrendr (>= 0.6.12),
+    dplyr (>= 1.0.0),
+    foreach,
+    fs,
+    future,
+    ggplot2,
+    ggpmisc,
+    ggthemes,
+    glue,
+    janitor,
+    magrittr,
+    methods,
+    plotly,
+    png,
+    pROC,
+    purrr,
+    readr,
+    rlang,
+    rrcov,
+    rsample,
+    scales,
+    strex,
+    stringr,
+    utils,
+    zeallot,
+    zoo
+Suggests: 
+    embed,
+    knitr,
+    mirmodels,
+    mockery,
+    patchwork,
+    recipes,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0),
+    vdiffr,
+    withr,
+    datasets
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Config/testthat/parallel: true
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
