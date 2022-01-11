@@ -1,5 +1,5 @@
-Package: mirmisc
-Title: Non-Modeling Helper Functions For Mirvie R Coders
+Package: mirmodels
+Title: Models Built by the Informatics Team at Mirvie
 Version: 0.1.2
 Authors@R: 
     c(person(given = "Rory",
@@ -27,54 +27,79 @@ Authors@R:
              role = "aut",
              email = "morten@mirvie.com"))
 Maintainer: Rory Nolan <rory@mirvie.com>
-Description: We have random bits of code that are quite useful.
-    This is a home for those scripts.
+Description: We needed a home for our high-quality, reusable,
+    peer-reviewed models. This is where the R models live. The Python
+    models live in the models module in the 'mirpy' package.
 License: MIT + file LICENSE
-URL: https://gitlab.com/Mirvie/mirmisc
-BugReports: https://gitlab.com/Mirvie/mirmisc/-/issues
+URL: https://gitlab.com/Mirvie/mirmodels
+BugReports: https://gitlab.com/Mirvie/mirmodels/-/issues
 Imports: 
     arrow (>= 3.0),
+    BiocParallel,
+    broom,
+    car,
     checkmate,
+    clipr,
     DescTools,
-    detrendr (>= 0.6.12),
-    dplyr (>= 1.0.0),
+    DESeq2,
+    dials,
+    doFuture,
+    doParallel,
+    dplyr,
+    edgeR,
+    embed,
+    forcats,
     foreach,
-    fs,
+    furrr,
     future,
+    generics,
     ggplot2,
     ggpmisc,
+    ggrepel,
     ggthemes,
+    glmnet,
     glue,
     janitor,
     magrittr,
+    MASS,
+    matrixStats,
     methods,
-    plotly,
-    png,
+    mlbench,
+    parsnip,
     pROC,
     purrr,
-    readr,
+    RcppRoll,
+    recipes,
     rlang,
     rrcov,
     rsample,
     scales,
+    stats,
     strex,
     stringr,
-    utils,
-    zeallot,
+    tibble,
+    tidyr,
+    tune,
+    usethis,
+    vip,
+    withr,
+    workflows,
+    xgboost,
+    yardstick,
     zoo
 Suggests: 
-    embed,
+    datasets,
+    fs,
     knitr,
-    mirmodels,
+    mirmisc,
     mockery,
-    patchwork,
-    recipes,
+    pacman,
+    readr,
     rmarkdown,
+    rprojroot,
     spelling,
-    testthat (>= 3.0),
-    vdiffr,
-    withr,
-    datasets
+    styler,
+    testthat (>= 3.0)
 VignetteBuilder: 
     knitr
 Config/testthat/edition: 3
